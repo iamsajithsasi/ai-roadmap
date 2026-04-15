@@ -409,3 +409,84 @@ Examples:
 - AI-assisted coding
 - Agent workflows
 - Tool usage
+
+## 36. AI Integration Engineering (VERY IMPORTANT)
+
+- Embedding LLMs into backend workflows
+- AI in customer-facing applications (chat, copilots)
+- API-based AI integration (request → LLM → response)
+- Sync vs async AI calls
+- Streaming responses (token streaming)
+
+---
+
+## 37. AI Orchestration (Expanded)
+
+- LangChain
+- LlamaIndex
+- LangGraph (agent workflows)
+- Prompt pipelines
+- Chaining multiple LLM calls
+
+---
+
+## 38. AI-Driven APIs
+
+- Designing APIs that consume LLM outputs
+- Handling unstructured responses
+- Response validation & parsing
+- Error handling for AI responses
+- Timeout / fallback strategies
+
+---
+
+## 39. Enterprise Backend Integration
+
+- Integrating AI into existing systems
+- Legacy system interaction
+- API gateways
+- Service-to-service communication
+
+---
+
+## 40. Database Integration (AI context)
+
+- Relational DB usage in AI apps
+- NoSQL (for scale, flexibility)
+- Storing embeddings / metadata
+- Query optimization
+
+---
+
+## 41. Performance Optimization (Backend + AI)
+
+- API latency optimization
+- Parallel processing
+- Async workflows
+- Caching LLM responses
+
+---
+
+## 42. Secure AI Systems
+
+- Secure API design
+- Authentication / Authorization
+- Data protection in AI workflows
+- Safe exposure of AI endpoints
+
+---
+
+## 43. Code Quality & Engineering Practices
+
+- Code reviews
+- Clean architecture
+- Documentation
+- Reusable components
+
+---
+
+## 44. AI-First Development Practices
+
+- Designing systems assuming AI is core
+- AI as a service layer
+- Standardizing prompts & pipelines
