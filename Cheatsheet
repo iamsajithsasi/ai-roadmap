@@ -1,0 +1,160 @@
+# 🚀 AI / LLM Engineer – 1 Page Cheat Sheet
+
+---
+
+## 🧠 ML BASICS
+- Types: Supervised, Unsupervised, Reinforcement, Self-supervised  
+- Bias vs Variance → Overfit (high variance), Underfit (high bias)  
+- Train / Validation / Test  
+- Metrics:
+  - Classification → Precision, Recall, F1, ROC-AUC  
+  - Regression → MAE, RMSE, R²  
+
+---
+
+## 🤖 CORE ALGORITHMS
+- Regression (Linear, Logistic)  
+- Tree-based (Decision Tree, Random Forest)  
+- Distance (KNN)  
+- Probabilistic (Naive Bayes)  
+- Clustering (K-Means)  
+- Dimensionality (PCA)  
+- Association (Apriori)  
+
+---
+
+## 🧠 MODEL TRAINING
+- Epochs, Batch size, Learning rate  
+- Gradient Descent (SGD, Mini-batch)  
+- Regularization (L1/L2, Dropout)  
+- Hyperparameter tuning (Grid, Random)  
+
+---
+
+## 🧠 LLM CORE
+- Tokens, Temperature  
+- Hallucination  
+- RLHF  
+
+---
+
+## 🧠 TRANSFORMER FLOW
+Input → Embedding → Positional Encoding →  
+Multi-Head Attention → Add & Norm →  
+Feed Forward → Add & Norm → Output  
+
+---
+
+## 🧠 PROMPT ENGINEERING
+- Techniques: Zero, One, Few-shot  
+- Structure:
+  - Instruction
+  - Context
+  - Steps
+  - Output format  
+- Roles: System / User / Assistant  
+- Formats: ChatML, Alpaca  
+
+---
+
+## 🔍 RAG (VERY IMPORTANT)
+**Indexing**
+- Chunk → Embed → Store  
+
+**Retrieval**
+- Query → Embed → Similarity Search → Top-K → LLM  
+
+- Vector DB: FAISS / Pinecone  
+- Metrics: Cosine similarity  
+
+---
+
+## 🤖 AGENT SYSTEMS
+Agent = LLM + Tools + Memory + Planning  
+
+- Patterns:
+  - ReAct (Reason + Act)  
+  - Planner–Executor  
+  - Multi-agent  
+
+- Key:
+  - Tool calling  
+  - State management  
+
+---
+
+## ⚙️ AI BACKEND
+- FastAPI / Flask  
+- REST APIs  
+- Async + Streaming  
+- Pydantic (validation)  
+
+---
+
+## 🔗 AI INTEGRATION
+- LLM APIs (OpenAI, etc.)  
+- LangChain / LlamaIndex  
+- Structured output (JSON)  
+- Error handling  
+
+---
+
+## 🗄️ DATA & SYSTEMS
+- DB: PostgreSQL, MongoDB  
+- Streaming: Kafka  
+- Cache: Redis  
+
+---
+
+## ☁️ CLOUD & DEPLOYMENT
+- AWS / Azure / GCP  
+- Docker, Kubernetes  
+- CI/CD  
+
+---
+
+## 📊 PRODUCTION AI
+- Monitoring (latency, cost)  
+- Observability (logs, metrics)  
+- Guardrails (safety, validation)  
+- Rate limiting, retries  
+
+---
+
+## ⚡ PERFORMANCE
+- Caching  
+- Async processing  
+- Model selection  
+- Context optimization  
+
+---
+
+## 🔁 MLOps
+- MLflow (tracking)  
+- Model versioning  
+- Deployment pipelines  
+- Retraining  
+
+---
+
+## 🔐 SECURITY
+- Prompt injection defense  
+- PII handling  
+- Auth & access control  
+
+---
+
+## 🧠 SYSTEM DESIGN
+- RAG system  
+- AI APIs  
+- Latency vs Cost vs Accuracy tradeoff  
+
+---
+
+## 🎯 GOLDEN RULES (INTERVIEW)
+- Don’t train → Use LLM smartly  
+- Prefer RAG > Fine-tune (most cases)  
+- Always talk about:
+  - Scale  
+  - Cost  
+  - Reliability  
