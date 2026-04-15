@@ -1,0 +1,129 @@
+# AI / Backend Engineer – Technology Stack
+
+---
+
+## 1. Programming Languages
+- Python (primary for AI/ML)
+- Java (enterprise backend)
+- JavaScript / Node.js (optional but useful)
+
+---
+
+## 2. Backend & API Development
+- FastAPI, Flask
+- Spring Boot (Java)
+- REST APIs
+- Microservices architecture
+- Async processing & streaming APIs
+
+---
+
+## 3. AI / LLM Integration
+- OpenAI / Azure OpenAI APIs
+- Anthropic (Claude)
+- Hugging Face (Transformers)
+
+---
+
+## 4. AI Frameworks & Orchestration
+- LangChain
+- LlamaIndex
+- LangGraph
+- Semantic Kernel (optional)
+
+---
+
+## 5. RAG & Vector Databases
+- FAISS
+- Pinecone
+- Chroma
+- Qdrant
+- Azure AI Search
+
+---
+
+## 6. Machine Learning / Deep Learning
+- TensorFlow
+- PyTorch
+- Keras
+- Scikit-learn
+
+---
+
+## 7. MLOps & Experimentation
+- MLflow (experiment tracking, model registry)
+- Model versioning
+- Pipeline automation
+
+---
+
+## 8. Databases
+
+### Relational
+- PostgreSQL
+- MySQL
+
+### NoSQL
+- MongoDB
+- DynamoDB (optional)
+
+### Data Warehouse
+- BigQuery
+
+---
+
+## 9. Data & Streaming
+- Apache Kafka
+- Apache Spark
+- Batch vs Streaming pipelines
+
+---
+
+## 10. Cloud Platforms
+- AWS
+- Azure
+- GCP (Vertex AI, BigQuery)
+
+---
+
+## 11. Deployment & DevOps
+- Docker
+- Kubernetes
+- CI/CD pipelines
+
+---
+
+## 12. Workflow Orchestration
+- Airflow
+- Temporal
+- Celery
+
+---
+
+## 13. API & System Design Tools
+- API Gateway concepts
+- Rate limiting
+- Load balancing
+- Caching systems (Redis – optional but expected)
+
+---
+
+## 14. AI System Enhancements
+- Pydantic (schema validation)
+- JSON schema enforcement
+- Structured outputs
+
+---
+
+## 15. Local LLM & Tools
+- Ollama
+- vLLM
+- Open WebUI
+- LM Studio
+
+---
+
+## 16. Version Control & Collaboration
+- Git
+- Code reviews
+- Agile tools (Jira etc.)
