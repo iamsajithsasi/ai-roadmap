@@ -1,492 +1,239 @@
-# ai-roadmap
-
-# AI / ML / LLM / Agentic AI Preparation Roadmap
+# AI / LLM / Backend Engineer Preparation Roadmap
 
 ---
 
-## 1. Probability & Statistics
-- Mean, Median, Mode
-- Variance, Standard Deviation
-- Probability basics
+## 1. Mathematics & Foundations
+- Probability & Statistics (mean, variance, distributions)
+- Linear Algebra (vectors, matrices, dot product)
 - Discrete vs Continuous data
-- Distributions (Normal, etc.)
-- Hypothesis testing (basic idea)
 
 ---
 
-## 2. Linear Algebra (Basics)
-- Vectors
-- Matrices
-- Dot product
-- Eigenvalues (intuition)
-
----
-
-## 3. ML Fundamentals
+## 2. Machine Learning Fundamentals
 - Supervised / Unsupervised / Reinforcement Learning
-- Self-supervised learning (Pretext & Downstream tasks)
+- Self-supervised learning
 - Discriminative vs Generative models
 - Bias vs Variance
 - Overfitting / Underfitting
-- Train / Validation / Test split
-- Cross-validation
+- Train / Validation / Test, Cross-validation
 - Data leakage
 
 ---
 
-## 4. Data & Feature Engineering
-- Feature extraction / selection / transformation
-- Scaling (min-max, standardization)
-- Encoding (one-hot, label)
+## 3. Data Processing & Feature Engineering
+- Feature extraction, selection, transformation
+- Scaling & Encoding
 - Missing values, outliers
 - Correlation matrix
 
 ---
 
-## 5. Core ML Algorithms
+## 4. Core ML Algorithms
 
 ### Supervised
-- Linear Regression
-- Logistic Regression
-- Decision Trees
-- Random Forest
-- KNN
-- Naive Bayes
-- SVM
+- Linear & Logistic Regression
+- Decision Trees, Random Forest
+- KNN, Naive Bayes, SVM
 
 ### Unsupervised
-- K-Means Clustering
-- Hierarchical Clustering
+- K-Means, Hierarchical Clustering
 - PCA
-- Apriori (Association Rules)
-  - Support, Confidence, Lift
-- Isolation Forest (Anomaly Detection)
+- Apriori (Support, Confidence, Lift)
+- Isolation Forest
 
 ---
 
-## 6. Evaluation Metrics
-
-### Classification
+## 5. Model Evaluation
+- Classification: Accuracy, Precision, Recall, F1, ROC-AUC
+- Regression: MAE, MAPE, RMSE, R²
 - Confusion Matrix
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- ROC-AUC
-
-### Regression
-- MAE
-- MAPE
-- RMSE
-- R² Score
 
 ---
 
-## 7. Model Training & Optimization
+## 6. Model Training & Optimization
 - Training vs Inference
 - Real-time vs Batch inference
-- Iterations / Epochs / Batch size
-- Learning rate
-- Gradient Descent (Batch, SGD, Mini-batch)
-- Convergence
-- Learning curves
+- Epochs, Batch size, Iterations
+- Learning rate, Gradient Descent
 - Regularization (L1, L2, Dropout)
-- Bias-Variance tradeoff
+- Hyperparameter tuning (Grid, Random, CV)
 
 ---
 
-## 8. Hyperparameter Tuning
-- Hyperparameters vs Parameters
-- Grid Search
-- Random Search
-- Cross-validation
-- Auto tuning (SageMaker, etc.)
+## 7. ML Lifecycle & MLOps
+- Training → Evaluation → Deployment
+- Monitoring & Retraining
+- CI/CD pipelines
+- Model performance tracking
 
 ---
 
-## 9. ML Lifecycle
-- Training
-- Tuning
-- Evaluation
-- Deployment
-- Monitoring
-- Retraining
+## 8. Deep Learning & NLP Basics
+- Neural Networks, Perceptron, XOR
+- Activation & Loss functions
+- Tokenization, TF-IDF, Embeddings
 
 ---
 
-## 10. Deep Learning Basics
-- Neural Networks
-- Perceptron & XOR problem
-- Activation functions (ReLU, Sigmoid, Softmax)
-- Loss functions (MSE, Cross-Entropy)
-- Backpropagation (high level)
-
----
-
-## 11. NLP Foundations
-- Tokenization
-- TF-IDF
-- Word Embeddings
-
----
-
-## 12. Transformers / LLM Internals
-- Input Embeddings
-- Positional Encoding
-- Multi-Head Attention
-- Masked Multi-Head Attention
-- Add & Norm
-- Feed Forward Network
+## 9. Transformers & LLM Internals
+- Embeddings & Positional Encoding
+- Attention (Q, K, V), Multi-head, Masked
+- Add & Norm, Feed Forward
 - Encoder vs Decoder
-- Attention mechanism (Q, K, V)
-- Transformer vs RNN/LSTM
+- Transformer vs RNN
 
 ---
 
-## 13. GenAI / LLM
+## 10. Generative AI & Prompt Engineering
 
-### Basics
+### Core Concepts
 - Tokens, Temperature
-- Hallucination
-- RLHF
+- Hallucination, RLHF
 
 ### Prompt Engineering
-
-#### Techniques
-- Zero-shot
-- One-shot
-- Few-shot
-- Persona-based prompting
-- Chain-of-thought
-- Automated reasoning
-
-#### Formats
-- Alpaca
-- ChatML
-- INST
-
-#### Structure
-- Instruction / Task
-- Steps / Plan
-- Context
-- Output format
-- Constraints
-- Tools / Function calling
-- Observation / Feedback loop
-
-#### Roles
-- System
-- User
-- Assistant
-- Developer
+- Techniques: Zero/Few/One-shot, Persona, Chain-of-thought
+- Structure: Instruction, Context, Steps, Output format
+- Formats: Alpaca, ChatML, INST
+- Roles: System, User, Assistant
 
 ---
 
-## 14. RAG (Retrieval-Augmented Generation)
-
-### Indexing Phase
-- Data ingestion
-- Chunking
-- Embedding generation
-- Vector storage
-
-### Retrieval Phase
-- Query embedding
-- Vector similarity search
-- Top-K retrieval
-- Re-ranking
-- Context injection
-
-### Advanced RAG
-- Hybrid search
-- Metadata filtering
-- Query rewriting
-- Caching
+## 11. RAG & Vector Search
+- Indexing: chunking, embeddings, storage
+- Retrieval: similarity search, top-K, re-ranking
+- Vector search: cosine, ANN, FAISS, HNSW
+- Advanced: hybrid search, filtering, caching
 
 ---
 
-## 15. Vector Search
-- Vector similarity search
-- Cosine similarity
-- Euclidean distance
-- Dot product
-- ANN (Approximate Nearest Neighbor)
-- HNSW
-- FAISS indexing
+## 12. Agentic AI Systems
+- Agent = LLM + Tools + Memory + Planning
+- Architectures: single, multi-agent, planner-executor
+- Workflows: ReAct, task decomposition, loops
+- Tool/function calling
+- Memory & state management
 
 ---
 
-## 16. LLM Ecosystem
-
-### Models
-- OpenAI, Claude, Gemini
-- DeepSeek, Qwen, LLaMA, Mistral
-
-### Platforms
-- Hugging Face
-  - Transformers
-  - Datasets
-  - Tokenizers
-  - Pipeline API
-
-### Local Inference
-- Ollama
-- vLLM
-
-### Tools
-- Open WebUI
-- LM Studio
+## 13. AI Engineering & Integration
+- Embedding AI into backend systems
+- AI orchestration (LangChain, LlamaIndex, LangGraph)
+- AI APIs (handling responses, validation, errors)
+- Structured outputs (JSON, schema validation)
+- Enterprise integrations (APIs, DBs, services)
 
 ---
 
-## 17. AI Backend Engineering
+## 14. Backend & API Engineering
 - FastAPI / Flask
-- Pydantic (validation, schemas)
-- REST APIs
-- Async processing
-- Streaming responses
+- Pydantic (validation)
+- REST APIs & microservices
+- Async processing & streaming
+- API design (contracts, versioning)
 
 ---
 
-## 18. Data Engineering
-- Kafka
-- Spark
-- Batch vs Streaming pipelines
-
----
-
-## 19. Deployment & Cloud
-- Docker
-- Kubernetes
-- AWS / Azure
-- CI/CD pipelines
-
----
-
-## 20. Production AI Systems
-- Observability (logs, metrics, tracing)
-- Monitoring (latency, errors)
-- Guardrails (validation, safety)
-- Cost optimization
-- Multi-tenant systems
-
----
-
-## 21. System Design
-- RAG system design
-- AI platform architecture
-- Scaling inference
-- API design
-
----
-
-## 22. API & Distributed Systems
-- Rate limiting
-- Caching
-- Load balancing
-- Retries
-- Circuit breakers
+## 15. Data & Distributed Systems
+- Databases (SQL, NoSQL)
+- Kafka, Spark
+- Caching, Load balancing
+- Rate limiting, retries, circuit breakers
 - Queueing systems
 
 ---
 
-## 23. AI System Tradeoffs
+## 16. Deployment & Cloud
+- Docker, Kubernetes
+- AWS / Azure
+- CI/CD
+- Scaling systems
+
+---
+
+## 17. Production AI Systems
+- Observability (logs, metrics, traces)
+- Monitoring (latency, errors, cost)
+- Guardrails (safety, validation, prompt injection)
+- Performance optimization (latency, caching)
+- Multi-tenant systems & access control
+
+---
+
+## 18. System Design & Tradeoffs
+- RAG system design
+- AI platform architecture
 - Latency vs Accuracy
 - Cost vs Performance
-- Throughput vs Quality
+- Scalability & throughput
 
 ---
 
-## 24. Agentic AI Systems (VERY IMPORTANT)
-
-### Core Concepts
-- Agent = LLM + Tools + Memory + Planning
-- Planning vs Execution
-
-### Architectures
-- Single-agent
-- Multi-agent systems
-- Planner–Executor
-- Supervisor–Worker
-- Router-based agents
-
-### Workflows
-- ReAct pattern (Reason + Act)
-- Iterative refinement loops
-- Task decomposition
-
----
-
-## 25. Memory & State Management
-- Short-term memory
-- Long-term memory
-- State management
-- Session handling
-
----
-
-## 26. Tooling & Integration
-- Tool schema design
-- API integrations
-- Knowledge base integration
-- Function calling
-
----
-
-## 27. Safety & Guardrails
-- Prompt injection defense
-- PII handling
-- Permission gating
-- Sandboxing
-- Output constraints
-
----
-
-## 28. Structured Outputs
-- JSON schema enforcement
-- Output parsing
-- Validation
-- Error handling
-
----
-
-## 29. Evaluation (LLM / Agents)
-- Task success rate
-- Tool correctness
-- Grounding (RAG accuracy)
-- Hallucination detection
-- Human-in-the-loop
-
----
-
-## 30. Testing & Release
-- Regression testing
+## 19. Testing, Evaluation & Reliability
+- LLM/Agent evaluation (accuracy, grounding)
+- Regression testing, A/B testing
 - Canary releases
-- A/B testing
-- Automated test generation
+- Incident handling, post-mortems
 
 ---
 
-## 31. Reliability Engineering
-- Observability
-- Failure modes
-- Incident response
-- Post-mortems
-- Runbooks
-
----
-
-## 32. Performance Optimization
-- Caching
-- Memoization
-- Context optimization
-- Model selection
-- Latency optimization
-
----
-
-## 33. Workflow Orchestration
-- Task queues
-- Async workflows
-- DAG systems
-
-Examples:
-- Airflow
-- Temporal
-- Celery
-
----
-
-## 34. Enterprise AI Concepts
-- Multi-tenant architecture
-- Access control
-- Data governance
-- Auditability
-
----
-
-## 35. Practical / Workflow
+## 20. Workflow & Tooling
 - AI-assisted coding
 - Agent workflows
-- Tool usage
+- Workflow orchestration (Airflow, Temporal, Celery)
 
-## 36. AI Integration Engineering (VERY IMPORTANT)
-
-- Embedding LLMs into backend workflows
-- AI in customer-facing applications (chat, copilots)
-- API-based AI integration (request → LLM → response)
-- Sync vs async AI calls
-- Streaming responses (token streaming)
+## 21. Embeddings (Deep Dive)
+- Embedding models (OpenAI, BERT-based, etc.)
+- Dimensionality concepts
+- Embedding quality vs performance tradeoff
+- Semantic vs lexical search
 
 ---
 
-## 37. AI Orchestration (Expanded)
-
-- LangChain
-- LlamaIndex
-- LangGraph (agent workflows)
-- Prompt pipelines
-- Chaining multiple LLM calls
+## 22. Fine-Tuning & Adaptation
+- Fine-tuning vs Prompting vs RAG
+- LoRA / PEFT (high-level)
+- When to use each approach
 
 ---
 
-## 38. AI-Driven APIs
-
-- Designing APIs that consume LLM outputs
-- Handling unstructured responses
-- Response validation & parsing
-- Error handling for AI responses
-- Timeout / fallback strategies
+## 23. Model Context & Token Management
+- Context window limits
+- Token counting
+- Chunk size vs context tradeoff
+- Prompt compression
 
 ---
 
-## 39. Enterprise Backend Integration
-
-- Integrating AI into existing systems
-- Legacy system interaction
-- API gateways
-- Service-to-service communication
+## 24. Streaming & UX in AI Apps
+- Token streaming responses
+- Partial outputs
+- User experience in chat systems
 
 ---
 
-## 40. Database Integration (AI context)
-
-- Relational DB usage in AI apps
-- NoSQL (for scale, flexibility)
-- Storing embeddings / metadata
-- Query optimization
-
----
-
-## 41. Performance Optimization (Backend + AI)
-
-- API latency optimization
-- Parallel processing
-- Async workflows
-- Caching LLM responses
+## 25. Versioning (Often missed in interviews)
+- Model versioning
+- Prompt versioning
+- API versioning
+- Experiment tracking
 
 ---
 
-## 42. Secure AI Systems
-
-- Secure API design
-- Authentication / Authorization
-- Data protection in AI workflows
-- Safe exposure of AI endpoints
+## 26. Experimentation & Tracking
+- Experiment tracking (MLflow concept)
+- Comparing model outputs
+- Prompt evaluation iterations
 
 ---
 
-## 43. Code Quality & Engineering Practices
-
-- Code reviews
-- Clean architecture
-- Documentation
-- Reusable components
+## 27. Security (Expanded AI focus)
+- API security (auth, rate limiting)
+- Data privacy in AI pipelines
+- Secure prompt handling
 
 ---
 
-## 44. AI-First Development Practices
-
-- Designing systems assuming AI is core
-- AI as a service layer
-- Standardizing prompts & pipelines
+## 28. Knowledge Grounding
+- Grounded responses (RAG correctness)
+- Source attribution / citations
+- Hallucination reduction techniques
