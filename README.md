@@ -189,51 +189,81 @@
 
 ---
 
-## 22. Fine-Tuning & Adaptation
-- Fine-tuning vs Prompting vs RAG
-- LoRA / PEFT (high-level)
-- When to use each approach
+## 22. Model Training & Fine-Tuning (IMPORTANT)
+
+- Training ML/DL models (end-to-end pipeline)
+- Fine-tuning LLMs
+- Transfer learning
+- PEFT / LoRA (high level)
+- When to use:
+  - Prompting vs RAG vs Fine-tuning
 
 ---
 
-## 23. Model Context & Token Management
-- Context window limits
-- Token counting
-- Chunk size vs context tradeoff
-- Prompt compression
+## 23. Deep Learning Frameworks
+
+- TensorFlow
+- PyTorch
+- Keras
+- Model building, training loops (high-level understanding)
 
 ---
 
-## 24. Streaming & UX in AI Apps
-- Token streaming responses
-- Partial outputs
-- User experience in chat systems
+## 24. MLOps (VERY IMPORTANT)
 
----
-
-## 25. Versioning (Often missed in interviews)
+- Experiment tracking (MLflow)
+- Model registry
 - Model versioning
-- Prompt versioning
-- API versioning
-- Experiment tracking
+- Reproducibility
+- Pipeline automation
 
 ---
 
-## 26. Experimentation & Tracking
-- Experiment tracking (MLflow concept)
-- Comparing model outputs
-- Prompt evaluation iterations
+## 25. Data Pipelines (Expanded)
+
+- Data ingestion pipelines
+- Feature engineering pipelines
+- Training vs inference pipelines
+- Batch processing pipelines
 
 ---
 
-## 27. Security (Expanded AI focus)
-- API security (auth, rate limiting)
-- Data privacy in AI pipelines
-- Secure prompt handling
+## 26. GCP Ecosystem (NEW)
+
+- BigQuery (data warehouse)
+- Vertex AI (training, deployment, pipelines)
+- Managed ML services
 
 ---
 
-## 28. Knowledge Grounding
-- Grounded responses (RAG correctness)
-- Source attribution / citations
-- Hallucination reduction techniques
+## 27. Model Deployment (Advanced)
+
+- Serving models as APIs
+- Model endpoints
+- Batch vs real-time serving
+- Scaling inference systems
+
+---
+
+## 28. Model Monitoring (Expanded)
+
+- Data drift
+- Model drift
+- Performance degradation
+- Retraining triggers
+
+---
+
+## 29. Experimentation & Benchmarking
+
+- Comparing models
+- Benchmark datasets
+- Performance evaluation strategies
+
+---
+
+## 30. AI Research Awareness
+
+- Reading papers (high-level)
+- Evaluating new models/tools
+- Choosing right architecture
