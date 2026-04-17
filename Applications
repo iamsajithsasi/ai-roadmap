@@ -1,0 +1,104 @@
+# AI / ML / LLM – Tools & Applications
+
+---
+
+## 1. Programming
+- Python (must)
+- Java (enterprise)
+- SQL
+
+---
+
+## 2. ML / Deep Learning Frameworks
+- TensorFlow
+- PyTorch
+- Keras
+- Scikit-learn
+
+---
+
+## 3. LLM / GenAI Platforms
+- OpenAI API
+- Anthropic (Claude)
+- Hugging Face (Transformers)
+
+---
+
+## 4. AI Orchestration / Frameworks
+- LangChain
+- LlamaIndex
+- LangGraph
+- Semantic Kernel (optional)
+
+---
+
+## 5. RAG & Vector Databases
+- FAISS
+- Pinecone
+- Chroma
+- Qdrant
+- Azure AI Search
+
+---
+
+## 6. Backend Development
+- FastAPI
+- Flask
+- Spring Boot
+- Pydantic (validation)
+
+---
+
+## 7. Databases
+- PostgreSQL / MySQL (SQL)
+- MongoDB (NoSQL)
+- Redis (cache)
+
+---
+
+## 8. Data & Streaming
+- Apache Kafka
+- Apache Spark
+
+---
+
+## 9. MLOps & Experimentation
+- MLflow
+- Kubeflow (pipelines)
+- Weights & Biases (optional)
+
+---
+
+## 10. Cloud Platforms
+- AWS
+- Azure
+- GCP (Vertex AI, BigQuery)
+
+---
+
+## 11. Deployment & DevOps
+- Docker
+- Kubernetes
+- CI/CD pipelines
+
+---
+
+## 12. Workflow / Orchestration
+- Airflow
+- Temporal
+- Celery
+
+---
+
+## 13. Local LLM Tools
+- Ollama
+- vLLM
+- LM Studio
+- Open WebUI
+
+---
+
+## 14. API & System Tools
+- REST APIs
+- API Gateway
+- Rate limiting / caching concepts
